@@ -118,15 +118,6 @@ bool test_add_col_errors(){
 }
 
 
-bool test_add_col_bad_arg()
-{
-    bool res = false;
-    // do logic
-    // MATRIX_GENERAL_FAIL == add_col()
-
-    return res;
-}
-
 bool test_add_row(){
     int row[] = {1,2,3,9};
     int row2[] = {3,4,5,11};
