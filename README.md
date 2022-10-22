@@ -1,14 +1,19 @@
-#Matix Library
+# Matrix Library
 A library in C for matrices
 
-##Usage
+## Usage
 
-####Building Matrices
-Provides various ways to create matrices and handles the memory allocation:
-Building by requsting user input, building by receving lists, building a zero matrix.
-Provides the option to add/delete rows/coloumns from a matrix.
+### Building Matrices
+The library provides various ways to create matrices and handles the memory allocation,
+1. Building via cli input
+2. Building via dynamic arrays
+3. Building a zero matrix by size.
 
-####Matrix Arithmatics
-Built in functions for:
-Matrix multiplication, determinant, adding/subtructing matrices
-Multiplying/adding/subtructing scalar
+All of the above return an `matrix_t` object which can be manipulated by adding and deleting rows or columns from a matrix object.
+
+### Matrix Arithmetics
+`matrix_t` supports multiple matrix arithmetics,
+1. Matrix multiplication
+2. Determinant
+3. adding/subtracting matrices
+4. Multiplying/adding/subtracting scala
